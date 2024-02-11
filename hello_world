@@ -1,0 +1,5 @@
+#!/usr/bin/env nix-shell
+#! nix-shell -i python -p python311 --pure
+#! nix-shell -I nixpkgs=https://github.com/NixOS/nixpkgs/archive/fb0c047e30b69696acc42e669d02452ca1b55755.tar.gz
+
+print("Hello World")
